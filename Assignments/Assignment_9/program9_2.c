@@ -1,6 +1,16 @@
-// convert currency --> usd to inr
 #include<stdio.h>
 #include<stdlib.h>
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name   : oddFactorial
+//  Input           : Integer
+//  Output          : Integer
+//  Description     : convert currency from USD to INR
+//  Date            : 31/10/2026
+//  Author          : Jayesh Devidas Patil
+//
+/////////////////////////////////////////////////////////////////////////////////
 
 int DollerToINR(int iNo)
 {

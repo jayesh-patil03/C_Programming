@@ -1,6 +1,16 @@
-// Find odd Factorial Multiplication
 #include<stdio.h>
 #include<stdlib.h>
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name   : oddFactorial
+//  Input           : Integer
+//  Output          : Integer
+//  Description     : Find odd Factorial Multiplication
+//  Date            : 31/10/2026
+//  Author          : Jayesh Devidas Patil
+//
+/////////////////////////////////////////////////////////////////////////////////
 
 int oddFactorial(int iNo)
 {

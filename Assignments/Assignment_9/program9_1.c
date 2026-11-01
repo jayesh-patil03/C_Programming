@@ -1,6 +1,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name   : oddFactorial
+//  Input           : Integer
+//  Output          : Void
+//  Description     : Display Pattern
+//  Date            : 31/10/2026
+//  Author          : Jayesh Devidas Patil
+//
+/////////////////////////////////////////////////////////////////////////////////
+
 void Display(int iNo)
 {
     int iCnt = 0;

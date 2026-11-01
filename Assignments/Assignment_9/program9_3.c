@@ -1,6 +1,16 @@
-// Find Even Factorial Multiplication
 #include<stdio.h>
 #include<stdlib.h>
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name   : oddFactorial
+//  Input           : Integer
+//  Output          : Integer
+//  Description     : Find Even Factorial Multiplication
+//  Date            : 31/10/2026
+//  Author          : Jayesh Devidas Patil
+//
+/////////////////////////////////////////////////////////////////////////////////
 
 int EvenFactorial(int iNo)
 {
