@@ -6,7 +6,7 @@
 //  Function Name   : CountDiff
 //  Input           : integer
 //  Output          : integer
-//  Description     : WAP which accepts number from user and return Multiplication of all digits.
+//  Description     : WAP which accepts number from user and return difference of EvenSum and OddSum.
 //  Date            : 19/11/2026
 //  Author          : Jayesh Devidas Patil
 //

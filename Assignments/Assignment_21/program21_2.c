@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name   : Pattern
+//  Input           : integer, integer
+//  Output          : void
+//  Description     : WAP which accepts number of rows and number of cols and print the given pattern.
+//  Date            : 26/11/2026
+//  Author          : Jayesh Devidas Patil
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+    pattern :
+                1   2   3   4
+                1   2   3   4
+                1   2   3   4
+                1   2   3   4
+                
+*/
+
+void Pattern(int iRow, int iCol)
+{
+    for(int i = 0; i < iRow; i++)
+    {
+        for(int j = 0; j < iCol; j++)
+        {
+            printf("%d\t", (j+1));
+        }
+        printf("\n\n");
+    }
+}
+
+int main()
+{
+    int iValue1 = 0, iValue2 = 0;
+
+    printf("Enter Number of rows and cols : \n");
+    scanf("%d %d", &iValue1, &iValue2);
+
+    Pattern(iValue1, iValue2);
+
+
+    return EXIT_SUCCESS;
+}
